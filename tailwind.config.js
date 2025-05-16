@@ -29,6 +29,9 @@ export default {
       color:{
         'gray-border':'rgba(135,135,135,0.3)'
       },
+      color2:{
+        'popular-chefs':'rgba(135, 135, 135, 0.4)'
+      }
     },
   },
   plugins: [],
