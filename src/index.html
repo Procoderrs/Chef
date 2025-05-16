@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="./output.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css" />
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+		rel="stylesheet" />
+</head>
+
+<body class="h-full">
+	<div class="max-w-full container">
+		<!-- Outer banner with background -->
+		<div class="outer-div relative rounded-lg h-full bg-[url('./assets/images/top-banner-2.png')] bg-cover ">
+			<div class="absolute inset-0 bg-[#000000] top-0 left-0 w-full h-full opacity-70 z-0"></div>
+			<!-- Inner centered content -->
+			<div class="relative 2xl:px-[50px] py-[54px] flex items-center justify-center rounded-lg z-10">
+				<div
+					class="w-full 2xl:px-12 md:px-8 py-10 md:py-0 flex flex-col md:flex-row items-center justify-between gap-6">
+					<div class="max-w-full">
+						<h1 class="text-white font-bold text-[30px] md:text-[30px] lg:text-[40px] 2xl:text-[50px]">
+							Welcome Alex!
+						</h1>
+						<p class="text-white text-[10px] md:text-[12px] lg:text-[16px] 2xl:text-[20px] font-normal">
+							Ready to discover amazing chefs in your area?
+						</p>
+					</div>
+
+					<div class="btn-divs flex md:flex-row flex-col items-center lg:gap-10 gap-4 md:gap-10 md:px-4 md:p-2 rounded">
+						<div class="btn-1 flex items-center bg-[#ffa12e] md:px-4 md:py-3 py-2 px-4 gap-1 rounded text-white">
+							<img src="./assets/images/addIcon.png" class="w-6" alt="" />
+							<p class="2xl:text-[20px] lg:text-[16px] md:[text-14px] text-[12px] font-semibold">
+								Create New Group
+							</p>
+						</div>
+						<div class="btn-2 flex items-center bg-[#ffa12e] md:px-4 gap-1 md:py-3 px-8 py-2 rounded text-white">
+							<img src="./assets/images/searchIcon.png" class="w-6" alt="" />
+							<p class="2xl:text-[20px] max-w-full lg:text-[16px] md:text-[14px] text-[12px] font-semibold">
+								Search Chef
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 			main section after banner -->
+		<div class=" px-4  ">
+			<div
+				class="grid grid-cols-1 lg:grid-cols-2 grid-cols-1fr  items-stretch w-full pb-8    xl:gap-10 pt-[20px] xl:pt-[40px]">
+				<!-- Left-grid-section -->
+				<div class="left-grid-col     flex   flex-col ">
+
+
+					<div class="flex flex-row    items-center pb-[20px] justify-between">
+						<h2 class="2xl:text-3xl md:text-[22px] text-[20px] font-semibold font-lato">
+							Active Groups
+						</h2>
+						<div class="flex bg-[#fff8e8] px-4 py-2 gap-2 rounded">
+							<p class="text-[12px] 2xl:text-[18px] md:text-[14px] font-normal text-[#C41220]">
+								See All
+							</p>
+							<img src="./assets/images/right-arrow.png" alt="right-arrow" class="w-4" />
+						</div>
+
+					</div>
+
+					<div class="bg-white shadow-custom-meal flex flex-col  gap-3  py-5  rounded-lg  2xl:py-[10px] ">
+						<!-- 1st-left-div -->
+						<div class="md:px-0 md:py-0     xl:px-0  ">
+							<div class="2xl:pl-[10px] 2xl:pr-[30px]       2xl:pb-[11px] md:px-0 md:py-4 lg:py-0">
+								<div
+									class="shadow-[#000000] my-3  border-b  border-gray-border    px-3  min-h-[150px] bg-white rounded-lg  md:py-0 2xl:pb-[50px]">
+									<div class="1st-div flex md:flex-row      flex-col items-center relative">
+										<img src="./assets/images/circle-food.png"
+											class="rounded-full 2xl:w-[140px] 2xl:h-[140px] w-[100px] h-[100px] max-w-full"
+											alt="circle-food-img" />
+										<div class="flex flex-col xl:ml-3  leading-7 text-center md:text-start font-lato">
+											<h3 class="font-lato 2xl:text-[25px] md:text-[20px] text-[18px] md:flex font-bold">
+												Group Name
+											</h3>
+											<div class="flex        flex-col md:items-start items-center justify-center w-full">
+												<p class="w-full ">
+													<span class="text-[16px] 2xl:text-[20px] md:text-[16px] font-semibold">
+														Cuisine:
+													</span>
+
+													<!-- Dish items in flex-row with left border -->
+													<span
+														class=" gap-x-3 ml-2 text-[12px] 2xl:text-[16px] md:text-[13px] text-[#878787] font-normal">
+														Pakistani, Italian, American, Indian
+													</span>
+												</p>
+
+
+
+												<div class="flex  items-center gap-2">
+													<div class="flex">
+														<img src="./assets/images/men-1.png" class="2xl:w-[30px] w-[20px] rounded-full" alt="">
+														<img src="./assets/images/girl-1.png" class="2xl:w-[30px] w-[20px] rounded-full " alt="">
+														<img src="./assets/images/men-2.png" class="2xl:w-[30px] w-[20px] rounded-full " alt="">
+
+													</div>
+													<span class="text-[14px] 2xl:text-[18px] "> 05 members</span>
+												</div>
+											</div>
+										</div>
+										<div
+											class="flex justify-center gap-1 absolute px-2 b items-center lg:top-[10px] md:top-0 top-[20px] right-[-10px] md:right-0">
+											<span><img src="./assets/images/group.png" class="w-[20px] h-[20px]" alt="group-icon" />
+											</span>
+											<p class="text-[#ffa12e] font-semibold xl:text-[16px] max-w-full md:text-[14px] text-[12px]">
+												Manage Group
+											</p>
+
+										</div>
+									</div>
+								</div>
+								<div class="xl:border-t-1 border-[#878787]"></div>
+							</div>
+						</div>
+						<div class="border-1 border-[#878787]"></div>
+						<!-- 2nd -left-div -->
+						<div class="md:px-0 md:py-0     xl:px-0  ">
+							<div class="2xl:pl-[10px] 2xl:pr-[30px]       2xl:pb-[11px] md:px-0 md:py-4 lg:py-0">
+								<div class="shadow-[#000000] my-3     px-3  min-h-[150px] bg-white rounded-lg  md:py-0 2xl:pb-[50px]">
+									<div class="1st-div flex md:flex-row      flex-col items-center relative">
+										<img src="./assets/images/circle-food.png"
+											class="rounded-full 2xl:w-[140px] 2xl:h-[140px] w-[100px] h-[100px] max-w-full"
+											alt="circle-food-img" />
+										<div class="flex flex-col xl:ml-3  leading-7 text-center md:text-start font-lato">
+											<h3 class="font-lato 2xl:text-[25px] md:text-[20px] text-[18px] md:flex font-bold">
+												Group Name
+											</h3>
+											<div class="flex        flex-col md:items-start items-center justify-center w-full">
+												<p class="w-full ">
+													<span class="text-[16px] 2xl:text-[20px] md:text-[16px] font-semibold">
+														Cuisine:
+													</span>
+
+													<!-- Dish items in flex-row with left border -->
+													<span
+														class=" gap-x-3 ml-2 text-[12px] 2xl:text-[16px] md:text-[13px] text-[#878787] font-normal">
+														Pakistani, Italian, American, Indian
+													</span>
+												</p>
+
+
+
+												<div class="flex  items-center gap-2">
+													<div class="flex">
+														<img src="./assets/images/men-1.png" class="2xl:w-[30px] w-[20px] rounded-full" alt="">
+														<img src="./assets/images/girl-1.png" class="2xl:w-[30px] w-[20px] rounded-full " alt="">
+														<img src="./assets/images/men-2.png" class="2xl:w-[30px] w-[20px] rounded-full " alt="">
+
+													</div>
+													<span class="text-[14px] 2xl:text-[18px] "> 05 members</span>
+												</div>
+											</div>
+										</div>
+										<div
+											class="flex justify-center gap-1 absolute px-2 b items-center lg:top-[10px] md:top-0 top-[20px] right-[-10px] md:right-0">
+											<span><img src="./assets/images/group.png" class="w-[20px] h-[20px]" alt="group-icon" />
+											</span>
+											<p class="text-[#ffa12e] font-semibold xl:text-[16px] max-w-full md:text-[14px] text-[12px]">
+												Manage Group
+											</p>
+
+										</div>
+									</div>
+								</div>
+								<div class="xl:border-t-1 border-[#878787]"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+
+
+
+				<!-- right-grid -->
+
+				<div class="right-grid-col  flex       flex-col">
+					<div class="flex flex-row   items-center py-[20px] lg:py-0 lg:pb-[20px]  justify-between">
+						<h2 class="2xl:text-3xl md:text-[22px] text-[20px] font-semibold font-lato">
+							Upcoming Meals
+						</h2>
+						<div class="flex bg-[#fff8e8] px-4 py-2 gap-2 rounded">
+							<p class="text-[12px] 2xl:text-[18px] md:text-[14px] font-normal text-[#C41220]">
+								See All
+							</p>
+							<img src="./assets/images/right-arrow.png" alt="right-arrow" class="w-4" />
+						</div>
+
+					</div>
+					<div class="bg-white shadow-custom-meal  flex flex-col gap-3 py-5  rounded-lg  2xl:py-[10px] ">
+						<!-- 1st-right-div -->
+						<div class="md:px-0 md:py-0     xl:px-0  ">
+							<div class="2xl:pl-[10px] 2xl:pr-[30px]       2xl:pb-[11px] md:px-0 md:py-4 lg:py-0">
+								<div
+									class="shadow-[#000000] my-3 border-b  border-gray-border     px-3  min-h-[150px] bg-white rounded-lg  md:py-0 2xl:pb-[50px]">
+									<div class="1st-div flex md:flex-row      flex-col items-center relative">
+										<img src="./assets/images/chef.png"
+											class="rounded-full 2xl:w-[140px] 2xl:h-[140px] w-[100px] h-[100px] max-w-full"
+											alt="circle-food-img" />
+										<div class="flex flex-col xl:ml-3  leading-7 text-center md:text-start font-lato">
+											<h3 class="font-lato 2xl:text-[25px] md:text-[20px] text-[18px] md:flex font-bold">
+												Chef Michael
+											</h3>
+											<p class="2xl:text-[18px] text-[16px] text-[#939393]"> Italian Cuisine Expert</p>
+											<div class="flex   text-center md:text-start    flex-col md:items-start items-center justify-center w-full">
+												<p class="w-full   ">
+													<span class="text-[16px] 2xl:text-[20px] md:text-[16px] font-semibold">
+														Meal Summary:
+													</span>
+
+													<!-- Dish items in flex-row with left border -->
+													<span
+														class=" gap-x-3 ml-2 text-[12px] 2xl:text-[16px] md:text-[13px] text-[#878787] font-normal">
+														<span class="pl-3 border-l border-[#878787]">Handmade Pasta</span>
+														<span class="pl-3 border-l border-[#878787]">Garden Salad</span>
+														<span class="pl-3 border-l border-[#878787]">Tiramisu</span>
+													</span>
+												</p>
+
+
+												<div class="flex items-center gap-2">
+													<span> <img src="./assets/images/fa6-solid_calendar.png" class="2xl:w-[19px] w-[15px]" alt="">
+													</span>
+													<span class="text-[14px] 2xl:text-[18px] text-[#ffa12e]">May 09</span>
+												</div>
+											</div>
+										</div>
+										<div
+											class="flex justify-center gap-1 absolute px-2 b items-center lg:top-[10px] md:top-0 top-[20px] right-[-10px] md:right-0">
+											<p class="text-[#c41230] font-semibold xl:text-[16px] max-w-full md:text-[14px] text-[12px]">
+												View
+											</p>
+											<img src="./assets/images/right-arrow.png" class="w-[20px] h-[20px]" alt="group-icon" />
+
+										</div>
+									</div>
+								</div>
+								<div class="xl:border-t-1 border-[#878787]"></div>
+							</div>
+						</div>
+						<div class="border-1 border-[#878787]"></div>
+						<!-- 2nd -right-div -->
+						<div class="md:px-0 md:py-0     xl:px-0  ">
+							<div class="2xl:pl-[10px] 2xl:pr-[30px]    2xl:pb-[11px] 2xl:pt-[10px] md:px-0 md:py-4 lg:py-0">
+								<div class="shadow-[#000000] my-3    px-3  min-h-[150px] bg-white rounded-lg  md:py-0 2xl:pb-[50px]">
+									<div class="1st-div flex md:flex-row      flex-col items-center relative">
+										<img src="./assets/images/chef.png"
+											class="rounded-full 2xl:w-[140px] 2xl:h-[140px] w-[100px] h-[100px] max-w-full"
+											alt="circle-food-img" />
+										<div class="flex flex-col xl:ml-3  leading-7 text-center md:text-start font-lato">
+											<h3 class="font-lato 2xl:text-[25px] md:text-[20px] text-[18px] md:flex font-bold">
+												Chef Michael
+											</h3>
+											<p class="2xl:text-[18px] text-[16px] text-[#939393]"> Italian Cuisine Expert</p>
+											<div class="flex        flex-col md:items-start items-center justify-center w-full">
+												<p class="w-full ">
+													<span class="text-[16px] 2xl:text-[20px] md:text-[16px] font-semibold">
+														Meal Summary:
+													</span>
+
+													<!-- Dish items in flex-row with left border -->
+													<span
+														class=" gap-x-3 ml-2 text-[12px] 2xl:text-[16px] md:text-[13px] text-[#878787] font-normal">
+														<span class="pl-3 border-l border-[#878787]">Handmade Pasta</span>
+														<span class="pl-3 border-l border-[#878787]">Garden Salad</span>
+														<span class="pl-3 border-l border-[#878787]">Tiramisu</span>
+													</span>
+												</p>
+
+
+												<div class="flex items-center gap-2">
+													<span> <img src="./assets/images/fa6-solid_calendar.png" class="2xl:w-[19px] w-[15px]" alt="">
+													</span>
+													<span class="text-[14px] 2xl:text-[18px] text-[#ffa12e]">May 09</span>
+												</div>
+											</div>
+										</div>
+										<div
+											class="flex justify-center gap-1 absolute px-2 b items-center lg:top-[10px] md:top-0 top-[20px] right-[-10px] md:right-0">
+											<p class="text-[#c41230] font-semibold xl:text-[16px] max-w-full md:text-[14px] text-[12px]">
+												View
+											</p>
+											<img src="./assets/images/right-arrow.png" class="w-[20px] h-[20px]" alt="group-icon" />
+
+										</div>
+									</div>
+								</div>
+								<div class="xl:border-t-1 border-[#878787]"></div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+
+				</div>
+
+
+
+
+
+
+			</div>
+
+			<!-- bottom div -->
+			<div class="">
+				<div class="flex items-center lg:pt-[62px] lg:pb-[97px] pb-20 px-4 justify-between">
+					<h2 class="font-semibold 2xl:text-3xl md:text-[25px] text-[20px] font-lato">
+						Popular Chefs
+					</h2>
+					<div class="flex bg-[#fff8e8] px-4 py-2 gap-2 rounded">
+						<p class="text-sm text-[#C41220]">See All</p>
+						<img src="./assets/images/right-arrow.png" alt="right-arrow" class="w-4" />
+					</div>
+				</div>
+
+				<div class="flex md:flex-row flex-col pb-3 gap-20 md:gap-4">
+					<div class="relative w-full mx-auto md:text-start text-center rounded-lg bg-white ">
+						<div class="bg-white  flex pt-[88px] pb-[20px] px-[25px] rounded-lg flex-col items-center">
+							<div class="absolute w-[135px] h-[135px] left-[30px] z-0 -top-[66px]">
+								<img src="./assets/images/chef.png" class="w-full h-full rounded-full border-2 border-[#ffa12e]"
+									alt="" />
+							</div>
+							<div class="z-10 text-start w-full">
+								<h3 class="pb-2 font-bold 2xl:text-[25px] md:text-[20px] text-[18px]">
+									Chef Michael Robert
+								</h3>
+								<p class="flex flex-col md:flex-row">
+									<span class="2xl:text-[16px] md:text-[14px] text-[12px] font-medium">Cuisine Speciality:
+									</span>
+									<span class="2xl:text-[16px] ml-2 md:text-[14px] text-[#878787] text-[12px] font-normal">Pakistani,
+										Italian, American, Indian.</span>
+								</p>
+								<div class="flex md:flex-col lg:flex-row items-center md:items-start lg:gap-2">
+									<p class="lg:py-2">
+										<span class="font-normal 2xl:text-[16px] md:text-[14px] text-[12px]">Availability:</span>
+										<span class="font-normal 2xl:text-[16px]  md:text-[14px] text-[#878787] text-[12px]">Thu-Sun</span>
+									</p>
+									<div class="flex items-center gap-2 border-l  border-gray-border pl-2">
+
+										<img src="./assets/images/Star 5.png" class="2xl:w-[30px] w-[15px] h-[15px] 2xl:h-[30px]"
+											alt="Star" />
+										<p class="py-2 text-[#ffa12e]">
+											<span class="font-normal 2xl:text-[16px] md:text-[14px] text-[12px]">4.8</span>
+											<span class="font-normal lg:text-[16px] md:text-[14px] text-[12px]">(134 reviews)</span>
+										</p>
+									</div>
+								</div>
+								<div class="pt-5 ">
+									<button class="px-8 rounded-lg  py-2 text-white bg-[#c41230]">view profile</button>
+
+</div>	
+							</div>
+							<div class="absolute w-[26px] h-[26px] top-4 right-4">
+								<img class="w-full h-full" src="./assets/images/Vector.png " alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="relative w-full mx-auto md:text-start text-center bg-white rounded-lg">
+						<div class="bg-white rounded-lg flex pt-[88px] pb-[20px] px-[25px] flex-col items-center">
+							<div class="absolute w-[135px] h-[135px] left-[30px] z-0 -top-[66px]">
+								<img src="./assets/images/chef.png" class="w-full h-full rounded-full border-2 border-[#ffa12e]"
+									alt="" />
+							</div>
+							<div class="z-10 text-start w-full">
+								<h3 class="pb-2 font-bold 2xl:text-[25px] md:text-[20px] text-[18px]">
+									Chef Michael Robert
+								</h3>
+								<p class="flex flex-col md:flex-row">
+									<span class="2xl:text-[16px] md:text-[14px] text-[12px] font-medium">Cuisine Speciality:
+									</span>
+									<span class="2xl:text-[16px] pl-2 md:text-[14px] text-[#878787] text-[12px] font-normal">Pakistani,
+										Italian, American, Indian.</span>
+								</p>
+								<div class="flex md:flex-col lg:flex-row items-center md:items-start lg:gap-2">
+									<p class="lg:py-2">
+										<span class="font-normal 2xl:text-[16px] md:text-[14px] text-[12px]">Availability:</span>
+										<span class="font-normal 2xl:text-[16px] md:text-[14px] text-[#878787] text-[12px]">Thu-Sun</span>
+									</p>
+									<div class="flex items-center gap-2 border-l  border-gray-border pl-2">
+										<img src="./assets/images/Star 5.png" class="2xl:w-[30px] w-[15px] h-[15px] 2xl:h-[30px]"
+											alt="Star" />
+										<p class="py-2 text-[#ffa12e]">
+											<span class="font-normal 2xl:text-[16px] md:text-[14px] text-[12px]">4.8</span>
+											<span class="font-normal lg:text-[16px] md:text-[14px] text-[12px]">(134 reviews)</span>
+										</p>
+									</div>
+								</div>
+								<div class="pt-5 ">
+									<button class="px-8 rounded-lg  py-2 text-white bg-[#c41230]">view profile</button>
+
+</div>	
+							</div>
+							<div class="absolute w-[26px] h-[26px] top-4 right-4">
+								<img class="w-full h-full" src="./assets/images/Vector (1).png " alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="relative w-full mx-auto md:text-start text-center bg-white rounded-lg">
+						<div class="bg-white rounded-lg flex pt-[88px] pb-[20px] px-[25px] flex-col items-center">
+							<div class="absolute w-[135px] h-[135px] left-[30px] z-0 -top-[66px]">
+								<img src="./assets/images/chef.png" class="w-full h-full rounded-full border-2 border-[#ffa12e]"
+									alt="" />
+							</div>
+							<div class="z-10 text-start w-full">
+								<h3 class="pb-2 font-bold 2xl:text-[25px] md:text-[20px] text-[18px]">
+									Chef Michael Robert
+								</h3>
+								<p class="flex flex-col md:flex-row">
+									<span class="2xl:text-[16px] md:text-[14px] text-[12px] font-medium">Cuisine Speciality:
+									</span>
+									<span class="2xl:text-[16px] pl-2 md:text-[14px] text-[#878787] text-[12px] font-normal">Pakistani,
+										Italian, American, Indian.</span>
+								</p>
+								<div class="flex md:flex-col lg:flex-row items-center md:items-start lg:gap-2">
+									<p class="lg:py-2">
+										<span class="font-normal 2xl:text-[16px] md:text-[14px] text-[12px]">Availability:</span>
+										<span class="font-normal 2xl:text-[16px] md:text-[14px] text-[#878787] text-[12px]">Thu-Sun</span>
+									</p>
+									<div class="flex items-center gap-2 border-l  border-gray-border pl-2">
+										<img src="./assets/images/Star 5.png" class="2xl:w-[30px] w-[15px] h-[15px] 2xl:h-[30px]"
+											alt="Star" />
+										<p class="py-2 text-[#ffa12e]">
+											<span class="font-normal 2xl:text-[16px] md:text-[14px] text-[12px]">4.8</span>
+											<span class="font-normal lg:text-[16px] md:text-[14px] text-[12px]">(134 reviews)</span>
+										</p>
+									</div>
+								</div>
+<div class="pt-5 ">
+									<button class="px-8 rounded-lg  py-2 text-white bg-[#c41230]">view profile</button>
+
+</div>						
+	</div>
+							<div class="absolute w-[26px] h-[26px] top-4 right-4">
+								<img class="w-full h-full" src="./assets/images/Vector (1).png " alt="" />
+							</div>
+						</div>
+															
+
+					</div>
+					
+				</div>
+			</div>
+
+		</div>
+
+
+	</div>
+	</div>
+</body>
+
+</html>
