@@ -752,6 +752,14 @@ video {
   margin-left: 0.5rem;
 }
 
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -915,6 +923,12 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.75rem * var(--tw-space-x-reverse));
   margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .rounded {
@@ -1267,6 +1281,10 @@ video {
     top: 0px;
   }
 
+  .md\:ml-3 {
+    margin-left: 0.75rem;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -1369,6 +1387,10 @@ video {
     font-size: 30px;
   }
 
+  .md\:text-\[18px\] {
+    font-size: 18px;
+  }
+
   .md\:text-\[\] {
     color: ;
   }
@@ -1432,9 +1454,31 @@ video {
   }
 }
 
+@media (min-width: 1100px) {
+  .cocoxl\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .cocoxl\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .cocoxl\:gap-5 {
+    gap: 1.25rem;
+  }
+
+  .cocoxl\:gap-3 {
+    gap: 0.75rem;
+  }
+}
+
 @media (min-width: 1200px) {
   .xl\:ml-3 {
     margin-left: 0.75rem;
+  }
+
+  .xl\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .xl\:gap-10 {
