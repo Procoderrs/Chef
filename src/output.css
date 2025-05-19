@@ -1315,6 +1315,10 @@ video {
 }
 
 @media (min-width: 1200px) {
+  .xl\:gap-10 {
+    gap: 2.5rem;
+  }
+
   .xl\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
