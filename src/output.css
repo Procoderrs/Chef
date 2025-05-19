@@ -727,12 +727,12 @@ video {
   margin-right: auto;
 }
 
-.ml-2 {
-  margin-left: 0.5rem;
-}
-
 .ml-1 {
   margin-left: 0.25rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
 .flex {
@@ -867,32 +867,20 @@ video {
   gap: 1.5rem;
 }
 
-.gap-x-3 {
-  -moz-column-gap: 0.75rem;
-       column-gap: 0.75rem;
-}
-
 .gap-x-1 {
   -moz-column-gap: 0.25rem;
        column-gap: 0.25rem;
 }
 
-.space-x-3 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+.gap-x-3 {
+  -moz-column-gap: 0.75rem;
+       column-gap: 0.75rem;
 }
 
 .space-x-1 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.25rem * var(--tw-space-x-reverse));
   margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-x-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .rounded {
@@ -1044,8 +1032,8 @@ video {
   padding-left: 0.5rem;
 }
 
-.pr-3 {
-  padding-right: 0.75rem;
+.pr-1 {
+  padding-right: 0.25rem;
 }
 
 .pt-5 {
@@ -1060,20 +1048,16 @@ video {
   padding-top: 88px;
 }
 
-.pr-2 {
-  padding-right: 0.5rem;
-}
-
-.pr-1 {
-  padding-right: 0.25rem;
-}
-
 .text-center {
   text-align: center;
 }
 
 .text-start {
   text-align: start;
+}
+
+.font-lato {
+  font-family: Lato, sans-serif;
 }
 
 .text-\[10px\] {
@@ -1158,12 +1142,6 @@ video {
   opacity: 0.7;
 }
 
-.shadow-custom-meal {
-  --tw-shadow: 0px 3px 6px rgba(0, 0, 0, 0.24), 0px 3px 6px rgba(0, 0, 0, 0.12), 0px 5px 15px rgba(0, 0, 0, 0.5);
-  --tw-shadow-colored: 0px 3px 6px var(--tw-shadow-color), 0px 3px 6px var(--tw-shadow-color), 0px 5px 15px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .shadow-\[\#000000\] {
   --tw-shadow-color: #000000;
   --tw-shadow: var(--tw-shadow-colored);
@@ -1171,6 +1149,10 @@ video {
 
 .container{
   background-color: #f6f6f6;
+}
+
+body{
+  font-family: 'Lato',sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -1387,10 +1369,6 @@ video {
   .\32xl\:px-\[50px\] {
     padding-left: 50px;
     padding-right: 50px;
-  }
-
-  .\32xl\:pb-\[11px\] {
-    padding-bottom: 11px;
   }
 
   .\32xl\:pl-\[10px\] {

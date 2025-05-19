@@ -31,6 +31,9 @@ export default {
       },
       color2:{
         'popular-chefs':'rgba(135, 135, 135, 0.4)'
+      },
+      fontFamily:{
+        lato:['Lato','sans-serif'],
       }
     },
   },
