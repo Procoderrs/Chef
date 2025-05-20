@@ -1,10 +1,32 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-.container{
-  background-color: #f6f6f6;
-}
-body{
-  font-family: 'Lato',sans-serif;
+
+@theme{
+  --color-gray-border:rgba(135,135,135,0.3);
+  --color-popular-chefs:rgba(135,135,135,0.4);
+  --color-primary:    #ffa12e;
+  --color-see-all-bg:   #fff8e8;
+  --color-see-all-text: #c41220;
+  --color-dishes-text:#878787;
+
+  --font-display: 'Lato', 'sans-serif';
+
+    --breakpoint-coxs:23.45rem;                 /* //375px */
+     --breakpoint-xs:   26.56rem;               /* 475px */
+      --breakpoint--sm:  36rem;                 /* 576px */
+      --breakpoint-comd:  40.625rem;            /* 650px */
+      --breakpoint-md:   48rem;                 /* 768 */
+      --breakpoint-colg:  53.125rem;            /* 850px */
+      --breakpoint-2coxl: 58.0625rem;           /* 929px */
+      --breakpoint-lg:   62rem;                 /* 992px */
+      --breakpoint-coxl:  65.625rem;            /* 1050px */
+      --breakpoint-coco-xl: 68.75rem;           /* 1100px */
+      --breakpoint-xl:   75rem;                 /* 1200px */
+      --breakpoint-12xl:  79.375rem;            /* 1270px */
+      --breakpoint-co2xl:   82.5rem;            /* 1320px */
+      --breakpoint-2xl:    90rem;               /* 1440px */
+      --breakpoint--1540scrn: 96.25rem;         /* 1540px */
+      --breakpoint-3xl:    103.75rem;           /* 1660px */
+      --breakpoint-4xl:    112.5rem;            /* 1800px */
+      --breakpoint-max:     125rem              /* 2000px */
 }

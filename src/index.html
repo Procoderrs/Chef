@@ -16,7 +16,7 @@
 		rel="stylesheet" />
 </head>
 
-<body class="h-full">
+<body class="h-full font-display">
 	<div class="max-w-full container">
 		<!-- Outer banner with background -->
 		<div class="outer-div relative rounded-lg h-full bg-[url('./assets/images/top-banner-2.png')] bg-cover ">
@@ -35,13 +35,13 @@
 					</div>
 
 					<div class="btn-divs flex md:flex-row flex-col items-center lg:gap-10 gap-4 md:gap-10 md:px-4 md:p-2 rounded">
-						<div class="btn-1 flex items-center bg-[#ffa12e] md:px-4 md:py-3 py-2 px-4 gap-1 rounded-lg text-white">
+						<div class="btn-1 flex items-center bg-primary md:px-4 md:py-3 py-2 px-4 gap-1 rounded-lg text-white">
 							<img src="./assets/images/addIcon.png" class="w-6" alt="" />
 							<p class="2xl:text-[20px] lg:text-[16px] md:[text-14px] text-[12px] font-semibold">
 								Create New Group
 							</p>
 						</div>
-						<div class="btn-2 flex items-center bg-[#ffa12e] md:px-4 gap-1 md:py-3 px-8 py-2 rounded-lg text-white">
+						<div class="btn-2 flex items-center bg-primary md:px-4 gap-1 md:py-3 px-8 py-2 rounded-lg text-white">
 							<img src="./assets/images/searchIcon.png" class="w-6" alt="" />
 							<p class="2xl:text-[20px] max-w-full lg:text-[16px] md:text-[14px] text-[12px] font-semibold">
 								Search Chef
@@ -54,7 +54,7 @@
 		<!-- 			main section after banner -->
 		<div class=" px-4  ">
 			<div
-				class="grid grid-cols-1 cocoxl:grid-cols-2 grid-cols-1fr  items-stretch w-full pb-8 xl:gap-10    cocoxl:gap-3 pt-[20px] xl:pt-[40px]">
+				class="grid grid-cols-1 coco-xl:grid-cols-2 grid-cols-1fr  items-stretch w-full pb-8 xl:gap-10    coco-xl:gap-3 pt-[20px] xl:pt-[40px]">
 				<!-- Left-grid-section -->
 				<div class="left-grid-col     flex   flex-col ">
 
@@ -63,8 +63,8 @@
 						<h2 class="2xl:text-3xl md:text-[22px] text-[20px] font-semibold font-lato">
 							Active Groups
 						</h2>
-						<div class="flex bg-[#fff8e8] px-4 py-2 gap-2 rounded">
-							<p class="text-[12px] 2xl:text-[18px] md:text-[14px] font-normal text-[#C41220]">
+						<div class="flex bg-see-all-bg px-4 py-2 gap-2 rounded">
+							<p class="text-[12px] 2xl:text-[18px] md:text-[14px] font-normal text-see-all-text">
 								See All
 							</p>
 							<img src="./assets/images/right-arrow.png" alt="right-arrow" class="w-4" />
@@ -72,7 +72,7 @@
 
 					</div>
 
-					<div class="bg-white border  gary-border flex flex-col      rounded-lg  ">
+					<div class="bg-white   border   border-gray-border  flex flex-col      rounded-lg  ">
 						<!-- 1st-left-div -->
 						<div class="md:px-0 md:py-0  border-b   border-gray-border    xl:px-0  ">
 							<div class="2xl:pl-[10px] 2xl:pr-[30px]           md:px-0 md:py-4 lg:py-0">
@@ -83,7 +83,7 @@
 											class="rounded-full 2xl:w-[140px] 2xl:h-[140px] w-[100px] h-[100px] max-w-full"
 											alt="circle-food-img" />
 										<div class="flex flex-col md:ml-3  leading-7 text-center md:text-start font-lato">
-											<h3 class="font-lato 2xl:text-[25px] md:text-[20px] text-[18px] md:flex font-bold">
+											<h3 class=" 2xl:text-[25px] md:text-[20px] text-[18px] md:flex font-bold">
 												Group Name
 											</h3>
 											<div class="flex        flex-col md:items-start items-center justify-center w-full">
@@ -94,7 +94,7 @@
 
 													<!-- Dish items in flex-row with left border -->
 													<span
-														class=" gap-x-1 ml-1 text-[12px] 2xl:text-[16px] md:text-[13px] text-[#878787] font-normal">
+														class=" gap-x-1 ml-1 text-[12px] 2xl:text-[16px] md:text-[13px] text-dishes-text font-normal">
 														Pakistani, Italian, American, Indian
 													</span>
 												</p>
@@ -116,18 +116,18 @@
 											class="flex justify-center gap-1 absolute px-2 b items-center lg:top-[10px] md:top-0 top-[-10px] right-[-10px] md:right-0">
 											<span><img src="./assets/images/group.png" class="w-[20px] h-[20px]" alt="group-icon" />
 											</span>
-											<p class="text-[#ffa12e] font-semibold xl:text-[16px] max-w-full md:text-[14px] text-[12px]">
+											<p class="text-primary font-semibold xl:text-[16px] max-w-full md:text-[14px] text-[12px]">
 												Manage Group
 											</p>
 
 										</div>
 									</div>
 								</div>
-								<div class="xl:border-t-1 border-[#878787]"></div>
-							</div>
+<!-- 								<div class="xl:border-t-1 border-[#878787]"></div>
+ -->							</div>
 						</div>
-						<div class="border-1 border-[#878787]"></div>
-						<!-- 2nd -left-div -->
+<!-- 						<div class="border-1 border-[#878787]"></div>
+ -->						<!-- 2nd -left-div -->
 					<div class="md:px-0 md:py-0  border-b   border-gray-border    xl:px-0  ">
 							<div class="2xl:pl-[10px] 2xl:pr-[30px]           md:px-0 md:py-4 lg:py-0">
 								<div
@@ -148,7 +148,7 @@
 
 													<!-- Dish items in flex-row with left border -->
 													<span
-														class=" gap-x-3 ml-2 text-[12px] 2xl:text-[16px] md:text-[13px] text-[#878787] font-normal">
+														class=" gap-x-3 ml-2 text-[12px] 2xl:text-[16px] md:text-[13px] text-dishes-text ">
 														Pakistani, Italian, American, Indian
 													</span>
 												</p>
@@ -170,15 +170,15 @@
 											class="flex justify-center gap-1 absolute px-2 b items-center lg:top-[10px] md:top-0 top-[-10px] right-[-10px] md:right-0">
 											<span><img src="./assets/images/group.png" class="w-[20px] h-[20px]" alt="group-icon" />
 											</span>
-											<p class="text-[#ffa12e] font-semibold xl:text-[16px] max-w-full md:text-[14px] text-[12px]">
+											<p class="text-primary font-semibold xl:text-[16px] max-w-full md:text-[14px] text-[12px]">
 												Manage Group
 											</p>
 
 										</div>
 									</div>
 								</div>
-								<div class="xl:border-t-1 border-[#878787]"></div>
-							</div>
+<!-- 								<div class="xl:border-t-1 border-[#878787]"></div>
+ -->							</div>
 						</div>
 					</div>
 				</div>
@@ -199,8 +199,8 @@
 						<h2 class="2xl:text-3xl md:text-[22px] text-[20px] font-semibold font-lato">
 							Upcoming Meals
 						</h2>
-						<div class="flex bg-[#fff8e8] px-4 py-2 gap-2 rounded">
-							<p class="text-[12px] 2xl:text-[18px] md:text-[14px] font-normal text-[#C41220]">
+						<div class="flex bg-see-all-bg px-4 py-2 gap-2 rounded">
+							<p class="text-[12px] 2xl:text-[18px] md:text-[14px] font-normal text-see-all-text">
 								See All
 							</p>
 							<img src="./assets/images/right-arrow.png" alt="right-arrow" class="w-4" />
@@ -208,7 +208,7 @@
 
 					</div>
 
-					<div class="bg-white  flex flex-col  border gray-border     rounded-lg   ">
+					<div class="bg-white  flex flex-col  border   border-gray-border     rounded-lg   ">
 						<!-- 1st-right-div -->
 						<div class="md:px-0 md:py-0  border-b   border-gray-border    xl:px-0  ">
 							<div class="2xl:pl-[10px] 2xl:pr-[30px]           md:px-0 md:py-4 lg:py-0">
@@ -223,7 +223,7 @@
 												Chef Michael
 											</h3>
 											<div class="flex        flex-col md:items-start items-center justify-center w-full">
-											 <p class=" md:text-[14px] text-[12px] 2xl:text-[18px] text-[#878787]">
+											 <p class=" md:text-[14px] text-[12px] 2xl:text-[18px] text-dishes-text">
 												Italian Cuisine Expert
 											 </p>
 												<p class="w-full">
@@ -252,13 +252,13 @@
 														<img src="./assets/images/fa6-solid_calendar.png" class="w-[19px] h-[22px] " alt="">
 														
 													</div>
-													<span class="text-[14px] 2xl:text-[18px] text-[#ffa12e] "> May 09</span>
+													<span class="text-[14px] 2xl:text-[18px] text-primary "> May 09</span>
 												</div>
 											</div>
 										</div>
 										<div
 											class="flex justify-center gap-1 absolute px-2 b items-center lg:top-[10px] md:top-0 top-[30px] right-[-10px] md:right-0">
-											<p class="text-[#c41220] font-semibold 2xl:text-[16px] max-w-full md:text-[14px] text-[12px]">
+											<p class="text-see-all-text font-semibold 2xl:text-[16px] max-w-full md:text-[14px] text-[12px]">
 												View All
 											</p>
 											<span><img src="./assets/images/right-arrow.png" class="w-4" alt="group-icon" />
@@ -268,11 +268,11 @@
 										</div>
 									</div>
 								</div>
-								<div class="xl:border-t-1 border-[#878787]"></div>
-							</div>
+<!-- 								<div class="xl:border-t-1 border-[#878787]"></div>
+ -->							</div>
 						</div>
-						<div class="border-1 border-[#878787]"></div>
-						<!-- 2nd -left-div -->
+<!-- 						<div class="border-1 border-[#878787]"></div>
+ -->						<!-- 2nd -left-div -->
 					<div class="md:px-0 md:py-0  border-b   border-gray-border    xl:px-0  ">
 							<div class="2xl:pl-[10px] 2xl:pr-[30px]           md:px-0 md:py-4 lg:py-0">
 								<div
@@ -286,7 +286,7 @@
 												Chef Michael
 											</h3>
 											<div class="flex        flex-col md:items-start items-center justify-center w-full">
-											 <p class=" md:text-[14px] text-[12px] 2xl:text-[18px] text-[#878787]">
+											 <p class=" md:text-[14px] text-[12px] 2xl:text-[18px] text-dishes-text">
 												Italian Cuisine Expert
 											 </p>
 												<p class="w-full">
@@ -315,13 +315,13 @@
 														<img src="./assets/images/fa6-solid_calendar.png" class="w-[19px] h-[22px] " alt="">
 														
 													</div>
-													<span class="text-[14px] 2xl:text-[18px] text-[#ffa12e] "> May 09</span>
+													<span class="text-[14px] 2xl:text-[18px] text-primary "> May 09</span>
 												</div>
 											</div>
 										</div>
 										<div
 											class="flex justify-center gap-1 absolute px-2 b items-center lg:top-[10px] md:top-0 top-[30px] right-[-10px] md:right-0">
-											<p class="text-[#c41220] font-semibold 2xl:text-[16px] max-w-full md:text-[14px] text-[12px]">
+											<p class="text-see-all-text font-semibold 2xl:text-[16px] max-w-full md:text-[14px] text-[12px]">
 												View All
 											</p>
 											<span><img src="./assets/images/right-arrow.png" class="w-4" alt="group-icon" />
@@ -331,8 +331,8 @@
 										</div>
 									</div>
 								</div>
-								<div class="xl:border-t-1 border-[#878787]"></div>
-							</div>
+<!-- 								<div class="xl:border-t-1 border-[#878787]"></div>
+ -->							</div>
 						</div>
 					</div>
 				</div>
@@ -347,20 +347,20 @@
 			<!-- bottom div -->
 			<div class="">
 				<div class="flex items-center lg:pt-[62px] lg:pb-[97px] pb-20 px-4 justify-between">
-					<h2 class="font-semibold 2xl:text-3xl md:text-[25px] text-[20px] font-lato">
+					<h2 class="font-semibold 2xl:text-3xl md:text-[25px] text-[20px] ">
 						Popular Chefs
 					</h2>
-					<div class="flex bg-[#fff8e8] px-4 py-2 gap-2 rounded">
-						<p class="text-sm text-[#C41220]">See All</p>
+					<div class="flex text-see-all-bg px-4 py-2 gap-2 rounded">
+						<p class="text-sm text-see-all-text">See All</p>
 						<img src="./assets/images/right-arrow.png" alt="right-arrow" class="w-4" />
 					</div>
 				</div>
 
 				<div class="flex md:flex-row flex-col pb-3 gap-20 md:gap-4">
-					<div class="relative w-full mx-auto md:text-start text-center border popular-chefs rounded-lg bg-white ">
+					<div class="relative w-full mx-auto md:text-start text-center border border-popular-chefs rounded-lg bg-white ">
 						<div class="bg-white  flex pt-[88px] pb-[20px] px-[25px] rounded-lg flex-col items-center">
 							<div class="absolute w-[135px] h-[135px] left-[30px] z-0 -top-[66px]">
-								<img src="./assets/images/chef.png" class="w-full h-full rounded-full border-2 border-[#ffa12e]"
+								<img src="./assets/images/chef.png" class="w-full h-full rounded-full border-2 text-primary"
 									alt="" />
 							</div>
 							<div class="z-10 text-start w-full">
@@ -370,26 +370,26 @@
 								<p class="flex flex-col md:flex-row">
 									<span class="2xl:text-[16px]  text-[12px] font-medium">Cuisine Speciality:
 									</span>
-									<span class="2xl:text-[16px] ml-2 md:text-[14px] text-[#878787] text-[12px] font-normal">Pakistani,
+									<span class="2xl:text-[16px] ml-2 md:text-[14px] text-dishes-text text-[12px] font-normal">Pakistani,
 										Italian, American, Indian.</span>
 								</p>
 								<div class="flex md:flex-col lg:flex-row items-center md:items-start lg:gap-2">
 									<p class="lg:py-2">
 										<span class="font-normal 2xl:text-[16px] md:text-[14px] text-[12px]">Availability:</span>
-										<span class="font-normal 2xl:text-[16px]  md:text-[14px] text-[#878787] text-[12px]">Thu-Sun</span>
+										<span class="font-normal 2xl:text-[16px]  md:text-[14px] text-dishes text-[12px]">Thu-Sun</span>
 									</p>
 									<div class="flex items-center gap-2 border-l  border-gray-border pl-2">
 
 										<img src="./assets/images/Star 5.png" class="2xl:w-[30px] w-[15px] h-[15px] 2xl:h-[30px]"
 											alt="Star" />
-										<p class="py-2 text-[#ffa12e]">
+										<p class="py-2 text-primary">
 											<span class="font-normal 2xl:text-[16px] md:text-[14px] text-[12px]">4.8</span>
 											<span class="font-normal lg:text-[16px] md:text-[14px] text-[12px]">(134 reviews)</span>
 										</p>
 									</div>
 								</div>
 								<div class="pt-5 ">
-									<button class="px-8 rounded-lg  py-2 text-white bg-[#c41230]">view profile</button>
+									<button class="px-8 rounded-lg  py-2 text-white bg-see-all-text">view profile</button>
 
 </div>	
 							</div>
@@ -398,10 +398,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="relative w-full mx-auto md:text-start text-center border popular-chefs rounded-lg bg-white ">
+					<div class="relative w-full mx-auto md:text-start text-center border border-popular-chefs rounded-lg bg-white ">
 						<div class="bg-white  flex pt-[88px] pb-[20px] px-[25px] rounded-lg flex-col items-center">
 							<div class="absolute w-[135px] h-[135px] left-[30px] z-0 -top-[66px]">
-								<img src="./assets/images/chef.png" class="w-full h-full rounded-full border-2 border-[#ffa12e]"
+								<img src="./assets/images/chef.png" class="w-full h-full rounded-full border-2 text-primary"
 									alt="" />
 							</div>
 							<div class="z-10 text-start w-full">
@@ -411,26 +411,26 @@
 								<p class="flex flex-col md:flex-row">
 									<span class="2xl:text-[16px]  text-[12px] font-medium">Cuisine Speciality:
 									</span>
-									<span class="2xl:text-[16px] ml-2 md:text-[14px] text-[#878787] text-[12px] font-normal">Pakistani,
+									<span class="2xl:text-[16px] ml-2 md:text-[14px] text-dishes-text text-[12px] font-normal">Pakistani,
 										Italian, American, Indian.</span>
 								</p>
 								<div class="flex md:flex-col lg:flex-row items-center md:items-start lg:gap-2">
 									<p class="lg:py-2">
 										<span class="font-normal 2xl:text-[16px] md:text-[14px] text-[12px]">Availability:</span>
-										<span class="font-normal 2xl:text-[16px]  md:text-[14px] text-[#878787] text-[12px]">Thu-Sun</span>
+										<span class="font-normal 2xl:text-[16px]  md:text-[14px] text-dishes-text text-[12px]">Thu-Sun</span>
 									</p>
 									<div class="flex items-center gap-2 border-l  border-gray-border pl-2">
 
 										<img src="./assets/images/Star 5.png" class="2xl:w-[30px] w-[15px] h-[15px] 2xl:h-[30px]"
 											alt="Star" />
-										<p class="py-2 text-[#ffa12e]">
+										<p class="py-2 text-primary">
 											<span class="font-normal 2xl:text-[16px] md:text-[14px] text-[12px]">4.8</span>
 											<span class="font-normal lg:text-[16px] md:text-[14px] text-[12px]">(134 reviews)</span>
 										</p>
 									</div>
 								</div>
 								<div class="pt-5 ">
-									<button class="px-8 rounded-lg  py-2 text-white bg-[#c41230]">view profile</button>
+									<button class="px-8 rounded-lg  py-2 text-white bg-see-all-text">view profile</button>
 
 </div>	
 							</div>
@@ -439,10 +439,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="relative w-full mx-auto md:text-start text-center border popular-chefs rounded-lg bg-white ">
+					<div class="relative w-full mx-auto md:text-start text-center border  border-popular-chefs rounded-lg bg-white ">
 						<div class="bg-white  flex pt-[88px] pb-[20px] px-[25px] rounded-lg flex-col items-center">
 							<div class="absolute w-[135px] h-[135px] left-[30px] z-0 -top-[66px]">
-								<img src="./assets/images/chef.png" class="w-full h-full rounded-full border-2 border-[#ffa12e]"
+								<img src="./assets/images/chef.png" class="w-full h-full rounded-full border-2 text-primary"
 									alt="" />
 							</div>
 							<div class="z-10 text-start w-full">
@@ -452,26 +452,26 @@
 								<p class="flex flex-col md:flex-row">
 									<span class="2xl:text-[16px]  text-[12px] font-medium">Cuisine Speciality:
 									</span>
-									<span class="2xl:text-[16px] ml-2 md:text-[14px] text-[#878787] text-[12px] font-normal">Pakistani,
+									<span class="2xl:text-[16px] ml-2 md:text-[14px] text-dishes-text text-[12px] font-normal">Pakistani,
 										Italian, American, Indian.</span>
 								</p>
 								<div class="flex md:flex-col lg:flex-row items-center md:items-start lg:gap-2">
 									<p class="lg:py-2">
 										<span class="font-normal 2xl:text-[16px] md:text-[14px] text-[12px]">Availability:</span>
-										<span class="font-normal 2xl:text-[16px]  md:text-[14px] text-[#878787] text-[12px]">Thu-Sun</span>
+										<span class="font-normal 2xl:text-[16px]  md:text-[14px] text-dishes-text text-[12px]">Thu-Sun</span>
 									</p>
 									<div class="flex items-center gap-2 border-l  border-gray-border pl-2">
 
 										<img src="./assets/images/Star 5.png" class="2xl:w-[30px] w-[15px] h-[15px] 2xl:h-[30px]"
 											alt="Star" />
-										<p class="py-2 text-[#ffa12e]">
+										<p class="py-2 text-primary">
 											<span class="font-normal 2xl:text-[16px] md:text-[14px] text-[12px]">4.8</span>
 											<span class="font-normal lg:text-[16px] md:text-[14px] text-[12px]">(134 reviews)</span>
 										</p>
 									</div>
 								</div>
 								<div class="pt-5 ">
-									<button class="px-8 rounded-lg  py-2 text-white bg-[#c41230]">view profile</button>
+									<button class="px-8 rounded-lg  py-2 text-white bg-see-all-text">view profile</button>
 
 </div>	
 							</div>
